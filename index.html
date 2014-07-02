@@ -1,43 +1,80 @@
-<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<head>
+  <link href="./index.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
 
-<h1>iOS Apps</h1>
-
-<img class="round-app-icon" width="100px" src="./billiard.jpg">
-<a class="btn btn-primary" href="https://itunes.apple.com/us/app/billiard9/id886668435?ls=1&mt=8">View in App Store</a>
-2014/06
-
-<br>
-
-<img class="round-app-icon" width="100px" src="./icon.jpg">
-<a class="btn btn-primary" href="https://itunes.apple.com/us/app/muscle-run/id763685037?ls=1&mt=8">View in App Store</a>
-2013/11
+<script>
 
 
-<h1>Android Apps</h1>
+</script>
 
-<img class="round-app-icon" width="100px" src="./billiard.jpg">
-<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.peroon.billiard">View in Google Play Store</a>
-2014/06
+<body>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active tab320"><a href="#ios" role="tab" data-toggle="tab">iOS</a></li>
+  <li class="tab320"><a href="#android" role="tab" data-toggle="tab">Android</a></li>
+</ul>
 
-<style>
-.round-app-icon{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-}
-</style>
+<div id="icon_zone" class="tab-content">
+  <!-- iOS -->
+  <div class="tab-pane active" id="ios">
+    <table>
+      <br>
+      <tr>
+        <td>
+          <a href="https://itunes.apple.com/us/app/billiard9/id886668435?ls=1&mt=8">
+          <img class="round-app-icon" width="100px" src="./billiard.jpg">
+          </a><br>
+          billiard<br>
+          2014/06
+        </td>
 
-<hr>
+        <td>
+          <a href="https://itunes.apple.com/us/app/muscle-run/id763685037?ls=1&mt=8">
+          <img class="round-app-icon" width="100px" src="./icon.jpg">
+          </a><br>
+          muscle run<br>
+          2013/11
+        </td>
+        
+        <td>
+          <img class="round-app-icon" width="100px" src="./gray.png">
+          <br>?<br>
+          XXXX/XX
+        </td>
+        <td>
+          <img class="round-app-icon" width="100px" src="./gray.png">
+          <br>?<br>
+          XXXX/XX
+        </td>
+      </tr>
+    </table>
+    
+    <br>
 
-<style>
-.circle {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-}
-</style>
-<a href="http://twitter.com/peroon">
-  <img class="circle" src="./peroon.jpg">
-</a>
-http://peroon.hatenablog.com
+  </div>
+
+  <div class="tab-pane" id="android">
+    <img class="round-app-icon" width="100px" src="./billiard.jpg">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.peroon.billiard">View in Google Play Store</a>
+    2014/06
+  </div>
+<div>
+
+<div id="creator_zone">
+  <a href="http://twitter.com/peroon">
+    <img class="circle" src="./peroon.jpg">
+  </a>
+  <br>
+  <span style="font-size:64px;">
+  @peroon
+  </span>
+  <!--
+  http://peroon.hatenablog.com
+  -->
+</div>
+
+</body>
+
