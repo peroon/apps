@@ -22,7 +22,26 @@
 
 .tab320{
     width:320px;
-    background-color: red;
+}
+.tab-ios{
+  color: blue;
+}
+.nav-tabs a {
+  text-align: center;
+  font-size: 32px;
+   height: 64px;  
+}
+/* tab color */
+.nav-tabs>li>a {
+  background-color: #333333; 
+  border-color: #777777;
+  color:#fff;
+}
+/* active tab color */
+.nav-tabs>li.active>a{
+  color: #fff;
+  background-color: #666;
+  border: 1px solid #888888;
 }
 
 td{
